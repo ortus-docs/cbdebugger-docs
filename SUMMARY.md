@@ -6,7 +6,28 @@
   * [About This Book](introduction/about-this-book/README.md)
     * [Author](introduction/about-this-book/author.md)
 
-## Getting Started
+## Essentials
 
-* [Installation](getting-started/installation.md)
-* [Configuration](getting-started/configuration.md)
+* [Installation](essentials/installation.md)
+* [Configuration](essentials/configuration.md)
+* [Request Tracker](essentials/request-tracker.md)
+
+## Collectors
+
+* [Adobe SQL](collectors/adobe-sql.md)
+* [Async](collectors/async.md)
+* [CacheBox](collectors/cachebox.md)
+* [CBORM](collectors/cborm.md)
+* [Collections](collectors/collections.md)
+* [ColdBox Interceptions](collectors/coldbox-interceptions.md)
+* [ColdBox Modules](collectors/coldbox-modules.md)
+* [Lucee SQL](collectors/lucee-sql.md)
+* [Objects Methods](collectors/objects-methods.md)
+* [QB/Quick](collectors/qb-quick.md)
+* [Tracers](collectors/tracers.md)
+* [WireBox Creations](collectors/wirebox-creations.md)
+
+## Advanced
+
+* [Debug Mode](advanced/debug-mode.md)
+* [Debugger Events](advanced/debugger-events.md)
