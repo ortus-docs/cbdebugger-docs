@@ -62,12 +62,30 @@ Apache 2 License: [http://www.apache.org/licenses/LICENSE-2.0](https://www.apach
 
 ### Important Links
 
-* Source: https://github.com/coldbox-modules/cbdebugger
-* ForgeBox: https://www.forgebox.io/view/cbdebugger
-* Community: https://community.ortussolutions.com/c/box-modules/cbdebugger/38
-* Issues: https://ortussolutions.atlassian.net/browse/CBDEBUGGER
-* Changelog
+* Source: [https://github.com/coldbox-modules/cbdebugger](https://github.com/coldbox-modules/cbdebugger)
+* ForgeBox: [https://www.forgebox.io/view/cbdebugger](https://www.forgebox.io/view/cbdebugger)
+* Community: [https://community.ortussolutions.com/c/box-modules/cbdebugger/38](https://community.ortussolutions.com/c/box-modules/cbdebugger/38)
+* Issues: [https://ortussolutions.atlassian.net/browse/CBDEBUGGER](https://ortussolutions.atlassian.net/browse/CBDEBUGGER)
+* Changelog: [https://github.com/coldbox-modules/cbdebugger/blob/development/changelog.md](https://github.com/coldbox-modules/cbdebugger/blob/development/changelog.md)
 
+## Professional Open Source <a href="#professional-open-source" id="professional-open-source"></a>
 
+![www.ortussolutions.com](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LA-UVvG0NM7NpDzssBL%2F-LA-Uaei0WzTH7Su5CR7%2F-LA-UqN1BRXynZ7RUVO7%2Fortussolutions\_button.png?generation=1523647999385555\&alt=media)
+
+This module is professional open-source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
+
+* Custom Development
+* Professional Support & Mentoring
+* Training
+* Server Tuning
+* Security Hardening
+* Code Reviews
+* [Much More](http://www.ortussolutions.com/services)
+
+## HONOR GOES TO GOD ABOVE ALL <a href="#honor-goes-to-god-above-all" id="honor-goes-to-god-above-all"></a>
+
+Because of His grace, this project exists. If you don't like this, then don't read it, it's not for you.
+
+> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ: By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
 
 ## ​ <a href="#important-links" id="important-links"></a>
