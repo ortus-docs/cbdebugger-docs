@@ -26,7 +26,7 @@ collections : {
 
 <table><thead><tr><th width="174">Key</th><th width="120">Type</th><th width="147">Default Value</th><th>Description</th></tr></thead><tbody><tr><td><code>enabled</code></td><td>Boolean</td><td>false</td><td>Enable the collector</td></tr><tr><td><code>expanded</code></td><td>Boolean</td><td>false</td><td>Expand the panel by default or not</td></tr><tr><td><code>maxQueryRows</code></td><td>Integer</td><td>50</td><td>Number of rows to show for query dumps</td></tr><tr><td><code>maxDumpTop</code></td><td>Integer</td><td>5</td><td>How many levels to output on object dumps</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/SCR-20230616-nyjp.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SCR-20230616-nyjp (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

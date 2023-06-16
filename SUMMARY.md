@@ -30,4 +30,4 @@
 ## Advanced
 
 * [Debug Mode](advanced/debug-mode.md)
-* [Debugger Events](advanced/debugger-events.md)
+* [Debugger Interceptors](advanced/debugger-interceptors.md)

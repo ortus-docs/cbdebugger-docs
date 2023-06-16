@@ -4,7 +4,7 @@ description: Profile any object method call
 
 # Objects Methods
 
-<figure><img src="../.gitbook/assets/SCR-20230616-nidy.png" alt=""><figcaption><p>Object Profiling</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SCR-20230616-nidy (1).png" alt=""><figcaption><p>Object Profiling</p></figcaption></figure>
 
 The ColdBox debugger allows you to profile the execution of **ANY** method in **ANY** CFC via our AOP pointcuts. All you need to do is add the `profile` annotation to a method or component declaration in your model/ORM objects. Once you do, the debugger will track the execution of those methods in the debug timers panel for you. First thing to do is make sure the setting is turned on:
 

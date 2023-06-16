@@ -25,7 +25,7 @@ We highly encourage contributions to this book and our open-source software. The
 
 {% embed url="https://harvesting.org/" %}
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 **Shalom Children’s Home** is one of the ministries that are dear to our hearts located in El Salvador. During the 12-year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children came on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
 
