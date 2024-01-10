@@ -55,6 +55,16 @@ luceeSql : {
 
 You now can generate Java heap dumps from the debugger visualizer so you can analyze the heap offline.  Great for debugging memory leaks or just system stability.
 
+### New Request Dock
+
+The request dock has now been cleaned up to only show the request's information and the UI updated for a better and seamless dock UI.  The rest of the information has been moved to the visualizer at the `/cbdebugger` entry point. &#x20;
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>New Request Dock</p></figcaption></figure>
+
+Once you click on the dock, it will expand to show the current request's debugging information.
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Expanded Dock</p></figcaption></figure>
+
 ### Improved SQL/JSON Formatting
 
 We have added new improvements to visualizing SQL and JSON in the context panels.
