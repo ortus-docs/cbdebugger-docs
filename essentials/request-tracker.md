@@ -6,7 +6,7 @@ description: Debugger Request Tracker
 
 ![Request Tracker](https://raw.githubusercontent.com/coldbox-modules/cbdebugger/development/test-harness/includes/images/debugger-visualizer.png)
 
-A part from debugging the incoming request and presenting the debugger at the end of the request (Request Dock Panel), you can also navigate to `/cbdebugger` and visualize the Debugger request tracker. This panel will monitor ALL incoming requests to your application: REST, SOAP, Ajax, etc.
+Apart from debugging the incoming request and presenting the debugger at the end of the request (Request Dock Panel), you can also navigate to `/cbdebugger` and visualize the Debugger request tracker. This panel will monitor ALL incoming requests to your application: REST, SOAP, Ajax, etc.
 
 You can execute several commands from this visualizer:
 
@@ -14,7 +14,7 @@ You can execute several commands from this visualizer:
 * Reinit ColdBox
 * Shutdown the debugger visualizer
 * Refresh the requests
-* Auto refresh the requests
+* Auto-refresh the requests
 * Produce a Java Heap Dump
 
 Each request is also tracked and visualized according to its activated collectors.
@@ -27,7 +27,7 @@ You can use the `requestTracker.storage` setting to configure where the request 
 
 * `memory` : The default, which stores the trackers in memory
 * `cachebox` : Store the request trackers in a CacheBox provider via the `cacheName`
-  * `cacheName` : Which cache region to store the profilers in. The default is the `template` cache region.
+  * `cacheName` : Cache region to store the profilers. The default is the `template` cache region.
 
 ```cfscript
 // Store the request profilers in heap memory or in cachebox, default is memory
@@ -125,8 +125,8 @@ All requests that produce exceptions are also tracked and special exception coll
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Exception Data</p></figcaption></figure>
 
-It will store the stacktrace and the tag context of the exception so you can visualize it and fix your bug.  It will also have links to open the offending code in VSCode or your favorite editor right from the debugger.  You can even open and navigate the tag context in your IDE from the debugger.
+It will store the stack trace and the tag context of the exception so you can visualize it and fix your bug.  It will also have links to open the offending code in VSCode or your favorite editor right from the debugger.  You can even open and navigate the tag context in your IDE from the debugger.
 
-You can also see all the collectors and their information all the way to the point of the exception:
+You can also see all the collectors and their information to the point of the exception:
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
