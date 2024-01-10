@@ -18,9 +18,9 @@ The ColdBox Debugger module is a lightweight performance monitor and profiling t
 
 ### Capabilities
 
-The ColdBox debugger is a lightweight performance monitor and profiler for your ColdBox applications. It tracks your requests, whether Ajax, traditional, or REST, its environment, execution, etc. Here is a listing of some of the capabilities you get with the ColdBox Debugger:
+The ColdBox Debugger tracks your requests, whether Ajax, traditional, or REST, its environment, execution, etc. Here is a listing of some of the capabilities you get with the ColdBox Debugger:
 
-* Track all incoming requests to your applications in memory or offloaded cache
+* Track all incoming requests to your applications
 * Track exceptions and execution environment
 * Track incoming HTTP requests, parameters, body, and much more
 * Track final request collections
@@ -32,7 +32,7 @@ The ColdBox debugger is a lightweight performance monitor and profiler for your 
 * Custom Timer helpers for adding timing methods and annotations anywhere in your code
 * Profile your production or development apps with ease
 * Track ColdBox modules and lifecycles
-* Highly configurable & extensible
+* Track Hyper HTTP/S calls
 * Track Adobe ColdFusion Queries (ColdFusion 2018+)
 * Track Lucee Queries
 
@@ -54,7 +54,7 @@ And constructed with the following guidelines:
 
 * Breaking backward compatibility bumps the major (and resets the minor and patch)
 * New additions without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
+* Bug fixes and misc changes bump the patch
 
 ## License <a href="#license" id="license"></a>
 

@@ -1,3 +1,7 @@
+---
+description: Learn more about this book
+---
+
 # About This Book
 
 The source code for this book is hosted on GitHub: [https://github.com/ortus-docs/cbdebugger-docs](https://github.com/ortus-docs/cbdebugger-docs). You can freely contribute to it and submit pull requests. Ortus Solutions, Corp copyrights the contents of this book and cannot be altered or reproduced without the author's consent. All content is provided _"As-Is"_ and can be freely distributed.
