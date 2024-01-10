@@ -132,7 +132,7 @@ debugPassword    : "cb:null"
 
 ### Request Panel Dock
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Request Panel Dock</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Request Panel Dock</p></figcaption></figure>
 
 You can enable/disable the rendering of our request panel dock which shows the profiling of the request.
 

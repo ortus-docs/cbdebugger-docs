@@ -23,6 +23,7 @@
 * [Collections](collectors/collections.md)
 * [ColdBox Interceptions](collectors/coldbox-interceptions.md)
 * [ColdBox Modules](collectors/coldbox-modules.md)
+* [Hyper HTTP Collector](collectors/hyper-http-collector.md)
 * [Lucee SQL](collectors/lucee-sql.md)
 * [Objects Methods](collectors/objects-methods.md)
 * [QB/Quick](collectors/qb-quick.md)

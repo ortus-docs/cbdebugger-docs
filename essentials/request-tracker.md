@@ -19,7 +19,7 @@ You can execute several commands from this visualizer:
 
 Each request is also tracked and visualized according to its activated collectors.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Storage
 
@@ -67,7 +67,7 @@ slowExecutionThreshold : 1000,
 
 ### Execution Timers
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Each request tracker has a panel called `ExecutionTimers` which shows all the timers the debugger was able to track during that request.  You can configure it via the following settings:
 
@@ -84,7 +84,7 @@ The `expanded` is just a simple boolen to control if the panel is open by defaul
 
 ### ColdBox Info Panel
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can control if the ColdBox information panel is open or closed by default via the `coldboxInfo` setting:
 
@@ -96,7 +96,7 @@ coldboxInfo : {
 
 ### HTTP Request Panel
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also configure the HTTP Request panel to do your bidding:
 
@@ -111,7 +111,7 @@ httpRequest : {
 
 You can have the panel open or closed and even chose if the HTTP Body request will be stored or not.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Be careful to not go overboard with profiling the HTTP Body because it can be very large.
@@ -119,14 +119,14 @@ Be careful to not go overboard with profiling the HTTP Body because it can be ve
 
 ### Exception Tracking
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Request History Exceptions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Request History Exceptions</p></figcaption></figure>
 
 All requests that produce exceptions are also tracked and special exception collectors are activated automatically to store the produced exception:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Exception Data</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Exception Data</p></figcaption></figure>
 
 It will store the stacktrace and the tag context of the exception so you can visualize it and fix your bug.  It will also have links to open the offending code in VSCode or your favorite editor right from the debugger.  You can even open and navigate the tag context in your IDE from the debugger.
 
 You can also see all the collectors and their information all the way to the point of the exception:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>

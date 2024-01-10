@@ -6,9 +6,9 @@ Leverage [CommandBox](https://www.ortussolutions.com/products/commandbox#downloa
 box install cbdebugger --savedev
 ```
 
-This will activate the debugger in your application and render out at the end of a request or by visiting the debugger request tracker visualizer at `/cbdebugger`.
+You will now have to [configure](configuration.md) the debugger for it to start tracking your application.  This will activate the debugger in your application and render out at the end of a request as a dock or by visiting the debugger request tracker visualizer at `/cbdebugger`.
 
-You will now have to [configure](configuration.md) the debugger for it to start tracking your application.
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Dock</p></figcaption></figure>
 
 {% embed url="https://s3.amazonaws.com/apidocs.ortussolutions.com/coldbox-modules/cbdebugger/4.2.0/index.html" %}
 Latest API Docs
@@ -72,6 +72,27 @@ function cbTimeIt(
 	required label,
 	required closure,
 	struct metadata = {}
+)
+
+/**
+ * Add a timer to the stack manually. You will need the label, executionTime and stoppedAt timestamps
+ *
+ * @label         The label to use as a timer label
+ * @executionTime The execution time in ms to register
+ * @startedAt     The date time the timer was started
+ * @stoppedAt     The date time the timer was stopped
+ * @metadata      A struct of metadata to store in the execution timer
+ * @parent        An optional parent label
+ * @type          The type of execution timed: request, view-render, layout-render, event, renderer
+ */
+function addCBTimer(
+	required label,
+	required executionTime,
+	startedAt       = now(),
+	stoppedat       = now(),
+	struct metadata = {},
+	parent          = "",
+	type            = "timer"
 )
 ```
 
@@ -154,7 +175,7 @@ DebuggerService function cbTracer(
 #### Adobe SQL Collector
 
 * `cbdebugger` package on ACF 2021+
-* Check `Database Activity` on the debugger page or cfconfig setting
+* Check `Database Activity` on the debugger page or **cfconfig** setting
 
 ```json
 debuggingShowDatabase : true
@@ -162,7 +183,7 @@ debuggingShowDatabase : true
 
 #### Lucee SQL Collector
 
-Enable debug logging and database activity in the Lucee Debugging screens or via cfconfig:
+Enable debug logging and database activity in the Lucee Debugging screens or via **cfconfig**:
 
 ```json
 "debuggingDBEnabled":"true"
