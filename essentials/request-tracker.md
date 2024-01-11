@@ -4,7 +4,7 @@ description: Debugger Request Tracker
 
 # Request Tracker
 
-![Request Tracker](https://raw.githubusercontent.com/coldbox-modules/cbdebugger/development/test-harness/includes/images/debugger-visualizer.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Debugger</p></figcaption></figure>
 
 Apart from debugging the incoming request and presenting the debugger at the end of the request (Request Dock Panel), you can also navigate to `/cbdebugger` and visualize the Debugger request tracker. This panel will monitor ALL incoming requests to your application: REST, SOAP, Ajax, etc.
 
@@ -19,7 +19,7 @@ You can execute several commands from this visualizer:
 
 Each request is also tracked and visualized according to its activated collectors.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Request Tracker</p></figcaption></figure>
 
 ### Storage
 
@@ -84,7 +84,7 @@ The `expanded` is just a simple boolen to control if the panel is open by defaul
 
 ### ColdBox Info Panel
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can control if the ColdBox information panel is open or closed by default via the `coldboxInfo` setting:
 
@@ -129,4 +129,4 @@ It will store the stack trace and the tag context of the exception so you can vi
 
 You can also see all the collectors and their information to the point of the exception:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>

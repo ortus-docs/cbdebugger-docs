@@ -8,7 +8,7 @@ CBDebugger 4.2 comes action-packed with tons of new features, improvements and b
 
 ### Hyper Collector
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 You can now track Hyper http/s requests right in a new panel.  It will also aggregate the request's total time, slowest, grouped, and timeline.  It also comes with some great options for configuration:
 
@@ -69,9 +69,9 @@ Once you click on the dock, it will expand to show the current request's debuggi
 
 We have added new improvements to visualizing SQL and JSON in the context panels.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
