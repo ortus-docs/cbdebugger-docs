@@ -108,7 +108,7 @@ If you are in ColdBox 6, add the following configuration settings to the `module
 
 ### Master Switch
 
-You can enable or disable the request tracking globally via the `enabled` master switch
+You can enable or disable the request tracking globally via the `enabled` master switch, make sure to set debugPassword
 
 ```
 enabled : false
@@ -129,6 +129,10 @@ debugMode        : controller.getSetting( name = "environment", defaultValue = "
 // The URL password to use to activate it on demand
 debugPassword    : "cb:null"
 ```
+
+In development environments where no password is needed use the follwing setting ```debugPassword    : ""```, ```cb:null``` will generate a random password.
+
+If you can't access the debugger pannel, you might need to add ```debugmode=1``` to your request
 
 ### Request Panel Dock
 
